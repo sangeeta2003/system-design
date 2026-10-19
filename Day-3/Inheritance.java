@@ -56,6 +56,7 @@ class Car{
 }
 class ManualCar extends Car{
     private  int currentGear;
+    
     public ManualCar(String brand, String model){
         super(brand,model);
         this.currentGear = 0;
