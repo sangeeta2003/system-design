@@ -28,7 +28,8 @@ abstract class Car {
 
     public abstract void accelerate(int speed);    //Abstract method for Static Polymorphism
     
-    public abstract void brake();                  // Abstract method for Dynamic Polymorphism
+    public abstract void brake(); 
+                     // Abstract method for Dynamic Polymorphism
 }
 
 class ManualCar extends Car {
