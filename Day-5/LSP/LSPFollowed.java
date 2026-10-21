@@ -96,6 +96,7 @@ class BankClient {
 
 public class LSPFollowed {
     public static void main(String[] args) {
+        
         List<WithdrawableAccount> withdrawableAccounts = new ArrayList<>();
         withdrawableAccounts.add(new SavingAccount());
         withdrawableAccounts.add(new CurrentAccount());
