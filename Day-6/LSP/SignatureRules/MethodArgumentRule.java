@@ -11,6 +11,7 @@ class Parent {
 class Child extends Parent {
     @Override
     public void print(String msg) {
+        // if here u use int msg it show error, break the rule so what already in parent use this in child 
         System.out.println("Child: " + msg);
     }
 }
