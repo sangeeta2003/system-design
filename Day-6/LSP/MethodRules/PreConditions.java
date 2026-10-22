@@ -1,6 +1,7 @@
 
 // A Precondition must be statisfied before a method can be executed.
 // Sub classes can weaken the precondition but cannot strengthen it.
+// if parent class follow a condition example password must be 8 char then child class can follow same or weak that condition like password msut be 8 char or 6 char (weak)
 
 class User {
     // Precondition: Password must be at least 8 characters long
