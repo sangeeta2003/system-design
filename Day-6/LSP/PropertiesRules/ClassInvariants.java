@@ -1,5 +1,6 @@
 // Class Invariant of a parent class Object should not be broken by child class Object.
 // Hence child class can either maintain or strengthen the invariant but never narrows it down.
+// if parent class set any rule then child class can't break that rule
 
 // Invariant: Balance cannot be negative
 class BankAccount {
