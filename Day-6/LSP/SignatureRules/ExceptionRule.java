@@ -26,6 +26,10 @@
         └── java.lang.IndexOutOfBoundsException // parent of the two “…OutOfBounds” above
 */
 
+
+
+// if parent use outof index error then child can use either out of index error or their child(narrowing) not its parent
+
 class Parent {
     public void getValue() throws RuntimeException {
         throw new RuntimeException("Parent error");
