@@ -4,6 +4,9 @@
 // This is also called return type covariance.
 // Java supports this out of the box.
 
+// organzation -> Animal -> dog
+// if in return type you use Animal in parent,then  in child you can use either animal or dog not organzation(parent)
+
 class Animal {
     // some common Animal methods
 }
