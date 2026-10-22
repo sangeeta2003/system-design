@@ -14,6 +14,7 @@ class MySQLDatabase implements Database {
     }
 }
 
+
 // MongoDB implementation (Low-level module)
 class MongoDBDatabase implements Database {
     @Override
