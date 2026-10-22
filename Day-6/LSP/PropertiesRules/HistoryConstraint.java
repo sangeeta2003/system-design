@@ -1,5 +1,6 @@
 // Subclass methods should not be allowed state changes that
 // the base class never allowed.
+// if parent class follow any history child class can't change that 
 
 class BankAccount {
     protected double balance;
