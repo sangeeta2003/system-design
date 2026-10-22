@@ -1,6 +1,7 @@
 
 // A Postcondition must be satisfied after a method is executed.
 // Subclasses can strengthen the Postcondition but cannot weaken it.
+// parent class if follow a condition child class can use as it is or strong that condition
 
 class Car {
     protected int speed;
