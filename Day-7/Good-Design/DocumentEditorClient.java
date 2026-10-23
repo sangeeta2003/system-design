@@ -1,7 +1,5 @@
-import java.util.ArrayList;
-import java.util.List;
-import java.io.FileWriter;
-import java.io.IOException;
+import java.util.*;
+import java.io.*;
 
 // Interface for document elements
 interface DocumentElement {
