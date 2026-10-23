@@ -148,7 +148,7 @@ public class DocumentEditorClient {
         // Simulate a client using the editor with common text formatting features.
         editor.addText("Hello, world!");
         editor.addNewLine();
-        editor.addText("This is a real-world document editor example.");
+        editor.addText("This is a real-world document editor examplee.");
         editor.addNewLine();
         editor.addTabSpace();
         editor.addText("Indented text after a tab space.");
