@@ -115,5 +115,6 @@ public class StrategyDesignPattern {
         robot2.talk();
         robot2.fly();
         robot2.projection();
+        
     }
 }
