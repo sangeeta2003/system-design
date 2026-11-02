@@ -6,10 +6,10 @@ public class ThreadSafeDoubleLockingSingleton {
         System.out.println("Singleton Constructor Called!");
     }
     public static ThreadSafeDoubleLockingSingleton getInstance(){
-        if(instance == null){
-            synchronized(ThreadSafeDoubleLockingSingleton.class){
-                if(instance == null){ // Lock only if needed
-                    instance = new ThreadSafeDoubleLockingSingleton();
+        if(instance == null){ // Lock only if needed
+            synchronized(ThreadSafeDoubleLockingSingleton.class){// Lock only if needed
+                if(instance == null){  // Second check (after acquiring lock)
+                    instance = new ThreadSafeDoubleLockingSingleton(); 
                 }
                 
             }
